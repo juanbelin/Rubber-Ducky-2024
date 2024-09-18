@@ -1,56 +1,79 @@
-# Rubber-Ducky-2024
-A manual Rubber Ducky with a Arduino UNO
+<h1>Rubber Ducky 2024 🦆💻</h1>
 
-We can use a Arduino UNO to convert it in a Rubber Ducky reprograming his micro-controller ATMega16U2.
+<p>A manual Rubber Ducky with an Arduino UNO!</p>
 
-For the transformation, I use this proyect: https://github.com/Lacerda53/duckduino. As well I suggest you follow the transformation video https://www.youtube.com/watch?v=W6uGHYBAhHQ&ab_channel=s4vitar (spanish)
+<p>Transform your Arduino UNO into a <b>Rubber Ducky</b> by reprogramming its microcontroller (ATMega16U2).</p>
 
+<p>For the transformation, I used this project: 
+  <a href="https://github.com/Lacerda53/duckduino">Duckduino Project</a>.
+  I also recommend following this <a href="https://www.youtube.com/watch?v=W6uGHYBAhHQ&ab_channel=s4vitar">video tutorial in Spanish</a>.
+</p>
 
-## Necessary tools
-USB
-![image](https://github.com/user-attachments/assets/cbcbc2d2-9cce-4cc7-9f73-98a0b72e250b)
+<hr>
 
-![image](https://github.com/user-attachments/assets/8e565b6a-44b8-47c3-a476-8203bc86eac5)
+<h2>🚀 Necessary Tools</h2>
 
-![image](https://github.com/user-attachments/assets/3672de29-0b20-4413-a282-0ab448f036a1)
+<ul>
+  <li>Arduino UNO</li>
+  <li>USB cable</li>
+  <li>Computer with Arduino IDE installed</li>
+</ul>
 
-![image](https://github.com/user-attachments/assets/2a66df40-738b-4400-bb73-2deada6b5c82)
+<p>Here are some images of the tools you'll need:</p>
 
+<img src="https://github.com/user-attachments/assets/cbcbc2d2-9cce-4cc7-9f73-98a0b72e250b" alt="Tools Image 1" width="300px" />
+<img src="https://github.com/user-attachments/assets/8e565b6a-44b8-47c3-a476-8203bc86eac5" alt="Tools Image 2" width="300px" />
+<img src="https://github.com/user-attachments/assets/3672de29-0b20-4413-a282-0ab448f036a1" alt="Tools Image 3" width="300px" />
+<img src="https://github.com/user-attachments/assets/2a66df40-738b-4400-bb73-2deada6b5c82" alt="Tools Image 4" width="300px" />
 
+<hr>
 
+<h2>⚙️ Transformation Steps</h2>
 
-## Transformaiton
-Clone the repositori
-![Captura desde 2024-03-24 20-16-14](https://github.com/user-attachments/assets/89ac23ed-2505-45cd-b729-c3b9ef08afde)
+<ol>
+  <li>Clone the repository from GitHub:</li>
+  <img src="https://github.com/user-attachments/assets/89ac23ed-2505-45cd-b729-c3b9ef08afde" alt="Clone Repository" width="300px" />
 
-Provide execution permision
-![Captura desde 2024-03-25 23-18-35](https://github.com/user-attachments/assets/bf88a06f-2c2c-4f05-86f2-4de70875ee28)
+  <li>Provide execution permissions:</li>
+  <img src="https://github.com/user-attachments/assets/bf88a06f-2c2c-4f05-86f2-4de70875ee28" alt="Provide Permission" width="300px" />
 
-Execute the script
-![Captura desde 2024-03-25 23-20-04](https://github.com/user-attachments/assets/337c6b71-1731-4c64-8042-7430f910858f)
+  <li>Run the script:</li>
+  <img src="https://github.com/user-attachments/assets/337c6b71-1731-4c64-8042-7430f910858f" alt="Execute Script" width="300px" />
 
-Plug Arduino with the two pins
-![Captura desde 2024-03-25 23-24-51](https://github.com/user-attachments/assets/22f0a2a7-7279-4448-a271-d94bccd21827)
+  <li>Connect the Arduino using two pins:</li>
+  <img src="https://github.com/user-attachments/assets/22f0a2a7-7279-4448-a271-d94bccd21827" alt="Connect Pins" width="300px" />
 
-Then disconnect it 
-![Captura desde 2024-04-01 19-04-30](https://github.com/user-attachments/assets/2ba20e48-c785-48b8-a558-9ce84dc7a0b1)
+  <li>Disconnect it:</li>
+  <img src="https://github.com/user-attachments/assets/2ba20e48-c785-48b8-a558-9ce84dc7a0b1" alt="Disconnect" width="300px" />
 
-Wait 
-![Captura desde 2024-04-01 19-29-59](https://github.com/user-attachments/assets/af8fab7a-924f-4767-8e1f-bf0801cbd87f)
+  <li>Wait a moment:</li>
+  <img src="https://github.com/user-attachments/assets/af8fab7a-924f-4767-8e1f-bf0801cbd87f" alt="Wait" width="300px" />
 
-Open Arduino IDE and upload the code 
-![Captura desde 2024-04-01 19-32-38](https://github.com/user-attachments/assets/e9d610b5-5e7f-4008-8998-fa0095adc0ff)
+  <li>Open the Arduino IDE and upload the code:</li>
+  <img src="https://github.com/user-attachments/assets/e9d610b5-5e7f-4008-8998-fa0095adc0ff" alt="Upload Code" width="300px" />
 
-Once you uploaded the code, connect the two pins again
-![Captura desde 2024-04-06 17-59-11](https://github.com/user-attachments/assets/0d273ca3-024c-435a-9bf7-f67f1579a100)
+  <li>Once uploaded, connect the two pins again:</li>
+  <img src="https://github.com/user-attachments/assets/0d273ca3-024c-435a-9bf7-f67f1579a100" alt="Connect Again" width="300px" />
 
-Then remove the ATMega16U2 connected pin
-![Captura desde 2024-04-06 17-59-32](https://github.com/user-attachments/assets/53d35e11-c62d-4d81-a5c9-78da7e49f9f9)
+  <li>Remove the ATMega16U2 connected pin:</li>
+  <img src="https://github.com/user-attachments/assets/53d35e11-c62d-4d81-a5c9-78da7e49f9f9" alt="Remove Pin" width="300px" />
 
-Enjoy
-![Captura desde 2024-04-06 17-59-48](https://github.com/user-attachments/assets/0822bb8d-681e-417f-ab0d-f927fa7eb585)
+  <li>Enjoy your Arduino Rubber Ducky! 🎉</li>
+  <img src="https://github.com/user-attachments/assets/0822bb8d-681e-417f-ab0d-f927fa7eb585" alt="Enjoy" width="300px" />
+</ol>
 
+<hr>
 
+<h2>⚠️ Limitations</h2>
 
+<p>By using Arduino UNO for this transformation, there are some limitations:</p>
+<ul>
+  <li>Some libraries cannot be used.</li>
+  <li>The Arduino programming language (C) is required.</li>
+</ul>
 
-Using Arduino UNO to tranform it in a Rubber Ducky we have limitations, we can't use some libraries and we must use Arduino language (C) so the payloads are programmed using the librarie <HIDKeyboard.h> which make it easiest. 
+<p>However, the <code>&lt;HIDKeyboard.h&gt;</code> library makes it easier to program the payloads.</p>
+
+<hr>
+
+<p>💡 <i>Remember: In cybersecurity, the only limit is your creativity!</i></p>
