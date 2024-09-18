@@ -27,6 +27,7 @@
 
 <img src="https://github.com/user-attachments/assets/cbcbc2d2-9cce-4cc7-9f73-98a0b72e250b" alt="Tools Image 1" width="300px" />
 <img src="https://github.com/user-attachments/assets/8e565b6a-44b8-47c3-a476-8203bc86eac5" alt="Tools Image 2" width="300px" />
+<p>You have to cut and connect two pins to follow the process like the <a href="https://www.youtube.com/watch?v=W6uGHYBAhHQ&ab_channel=s4vitar">video tutorial in Spanish</a>. </p>
 <img src="https://github.com/user-attachments/assets/3672de29-0b20-4413-a282-0ab448f036a1" alt="Tools Image 3" width="300px" />
 <img src="https://github.com/user-attachments/assets/2a66df40-738b-4400-bb73-2deada6b5c82" alt="Tools Image 4" width="300px" />
 
@@ -83,7 +84,7 @@
 
 I leave here the reverse shell video demostration: https://youtu.be/V1sFzoz6uUI?si=7YkpAL0tBI4EBwBv
 
-<p>Also I strongly recommend you check mi presentation to get all the infotmation explained and extra videos.(Spanish)</p>
+<p>Also I strongly recommend you check my presentation to get all the infotmation explained and extra videos.(Spanish)</p>
 
 <h2>💡Presentation</h2>
 
