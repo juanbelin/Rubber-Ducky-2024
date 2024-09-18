@@ -1,7 +1,7 @@
 
 // This Arduino code is designed to turn the device into a USB keyboard using the HID protocol.
 // It automates keystrokes to simulate a reverse shell attack by exploiting keyboard inputs.
-// The main goal is to open a PowerShell window and execute a command that downloads and runs a malicious script (PS.ps1).
+// The main goal is to open a PowerShell window and execute a command that downloads and runs a malicious script (PS.ps1)---> Make sure you are sharing the resource PS.ps1 via http, you can use python for that ($ python3 -m http.server "port") .
 
 // Libraries and Definitions:
 // The HIDKeyboard library is included to use the Arduino as a keyboard.
