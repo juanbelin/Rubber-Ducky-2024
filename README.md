@@ -83,7 +83,7 @@
 
 I leave here the reverse shell video demostration: https://youtu.be/V1sFzoz6uUI?si=7YkpAL0tBI4EBwBv
 
-<p>Also I strongly recommend you check mi presentation to get all the infotmation explained and extra videos.</p>
+<p>Also I strongly recommend you check mi presentation to get all the infotmation explained and extra videos.(Spanish)</p>
 
 <h2>💡Presentation</h2>
 
