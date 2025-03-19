@@ -1,6 +1,6 @@
 <h1>Rubber Ducky 2024 🦆💻</h1>
 
-<p>A manual Rubber Ducky with an Arduino UNO! 2024 EDUCATIONAL PURPOSES </p>
+<p>A manual Rubber Ducky using an Arduino UNO! 2024 EDUCATIONAL PURPOSES </p>
 
 
 
